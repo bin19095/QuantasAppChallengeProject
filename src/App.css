@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.b-margin-bot{
+  margin-bottom: 10px;
+}
+.grouped:hover > .grouped2{
+
+  opacity:.4;
+  color:white;
+  background-color: #596D8E;
+}
+.border-color{
+  box-shadow: 0px 10px 8px #888888;
+}
+.float-left{
+  float:left !important;
+}
+
+.bg-color{
+
+  background-color: #B9D2E1;
+  height:200px;
+  border:3px solid #D3E7F3;
+  font-family:'Titillium Web', 'san serif';
+  
+}
+
+.head-rt-cont{
+padding-left:90px;
+float:left;
+height:150px;
+margin-top:120px;
+
+}
+.head-lft-cont{
+  margin-top:120px;
+
+float:left;
+height:150px;
+}
+.txt-b{
+  font-style:italic;
+  font-weight:bold;
+  font-family:'Trajan Pro BOld','san serif';
+  font-color:orange;
+  padding-right:5px;
+}
+.pad{
+  padding-right:80px;
+}
+.color-row{
+  background-color: #A8BDBF;
+}
+.ps-fixed{
+  position:fixed;
+  width:100%;
+}
+
+ div.scroll{
+
+                padding:4px; 
+                background-color: #f2f2f2; 
+                width: 500px; 
+                height:500px; 
+                overflow-x: hidden; 
+                overflow-x: auto; 
+                text-align:justify; 
+                 margin:4px, 4px; 
+                 border-radius:10px;
+
+  }  
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  .center{
+   text-align:center;
+  }
+}
